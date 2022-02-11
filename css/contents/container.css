@@ -1,0 +1,32 @@
+.container{
+	width: 900px;
+	padding: 40px;
+	padding-top: 35px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.cardcntr{
+	padding-top: 20px;
+	border-bottom: 1px solid black;
+}
+
+.alexis{
+  border-right: 1px solid;
+  border-left: 1px solid;
+  margin-bottom: 10px;
+}
